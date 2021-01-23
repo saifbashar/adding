@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    int a=10, b=20;
+    int a, b;
+    cin >> a >> b;
     int s = a+b;
 
     cout<<"The sum of two numbers: "<<s<<endl;
