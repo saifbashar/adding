@@ -6,7 +6,7 @@ int main()
     int a=10, b=20;
     int s = a+b;
 
-    cout<<s;
+    cout<<"The sum of two numbers: "<<s<<endl;
 
     return 0;
 
