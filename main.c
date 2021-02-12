@@ -1,15 +1,15 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-	int i=1,sum = 0;
-	while(i<=20)
+	int i,j;
+	for(i=0;i<5;i++)
 	{
-		if(i%2==0)
+		for(j=0;j<=i;j++)
 		{
-			sum += i;
+			printf("*");
 		}
-		i++;
+		printf("\n");
 	}
-	printf("The sum of all even numbers between 1 to 20 is %d",sum);
 	return 0;
 }
